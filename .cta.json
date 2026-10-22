@@ -1,0 +1,24 @@
+{
+  "bundler": "vite",
+  "projectName": "ai-autocomplete-demo",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "bun",
+  "includeExamples": false,
+  "tailwind": true,
+  "projectPreset": "default",
+  "routerOnly": false,
+  "addOnOptions": {},
+  "git": true,
+  "install": true,
+  "intent": true,
+  "version": 1,
+  "framework": "react",
+  "chosenAddOns": [
+    "cloudflare",
+    "ai",
+    "compiler",
+    "shadcn",
+    "store"
+  ]
+}

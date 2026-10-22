@@ -1,0 +1,31 @@
+{
+  "rules": {
+    "shadcn/no-restyle": [
+      "warn",
+      {
+        "allow": [
+          "layout"
+        ],
+        "deny": [
+          "[--*",
+          "[background-image*",
+          "[mask*",
+          "[-webkit-mask*"
+        ]
+      }
+    ],
+    "shadcn/no-raw-colors": "error",
+    "shadcn/no-unknown-classes": "error"
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/components/ui/**",
+        "**/components/blocks/**"
+      ],
+      "rules": {
+        "shadcn/no-restyle": "off"
+      }
+    }
+  ]
+}
